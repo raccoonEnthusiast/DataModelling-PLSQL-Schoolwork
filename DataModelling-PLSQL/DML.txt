@@ -1,0 +1,208 @@
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (01, 'Black');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (02, 'White');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (03, 'Silver');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (04, 'Red');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (05, 'Blue');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (06, 'Green');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (07, 'Brown');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (08, 'Yellow');
+INSERT INTO lu_colours(C_No, C_Colour) VALUES (09, 'Orange');
+
+COMMIT;
+
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('GKN534', 'Ford', 'Focus', 2014, 1, 13500.00, 45617, 05);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('AGY123', 'Honda', 'Civic', 2013, 1, 16500.00, 27634, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('PRH345', 'Honda', 'Accord', 2015, 1, 21000.00, 33687, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('HJA356', 'Honda', 'Civic', 2013, 2, 16500.00, 23677, 01);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('NT6776', 'Toyota', 'Aurion', 2013, 2, 30000.00, 52844, 04);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('ALH788', 'Holden', 'Commodore', 2013, 1, 45000.00, 23677, 07);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('TU6969', 'Toyota', 'Yaris', 2014, 1, 18000.00, 46637, 08);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('JU3492', 'Toyota', 'Yaris', 2015, 1, 21000.00, 23677, 05);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('YPU789', 'Honda', 'Accord', 2014, 3, 21000.00, 91221, 02);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('CLK778', 'Honda', 'Accord', 2014, 1, 21000.00, 36677, 02);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('GET342', 'Suzuki', 'Swift', 2013, 2, 18000.00, 62869, 09);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('POQ451', 'BMW', '116i', 2011, 1, 15500.00, 74617, 02);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('KRE993', 'Toyota', 'Hilux', 2012, 3, 22500.00, 112342, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('LDU724', 'Mazda', 'BT50', 2013, 2, 18500.00, 88922, 02);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('JRY781', 'Mazda', 'Atenza', 2011, 1, 16500.00, 23677, 05);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('JNA553', 'Mitsubishi', 'Triton', 2013, 1, 16500.00, 23670, 04);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('MCC126', 'Mitsubishi', 'Triton', 2013, 1, 16500.00, 32560, 02);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('JEQ868', 'Volkswagen', 'Golf', 2013, 1, 17500, 73000, 01);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('MBS348', 'Volkswagen', 'Passat', 2015, 1, 29000.00, 3677, 01);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('NHE938', 'Mitsubishi', 'Lancer', 2013, 3, 9500.00, 23677, 04);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('CJL524', 'Toyota', 'Blade', 2009, 2, 9500.00, 127556, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('EYC121', 'Toyota', 'Hilux', 2013, 1, 22500.00, 134562, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('LMC521', 'Toyota', 'Wish', 2011, 1, 10750.00, 132400, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('GGP198', 'Honda', 'Accord', 2014, 1, 14500.00, 33770, 04);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('KFQ939', 'Honda', 'CR-V', 2010, 4, 9000.00, 87000, 04);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('ENB681', 'Mazda', 'Axela', 2008, 3, 8500.00, 120500, 03);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('AFW982', 'Mazda', 'Demio', 2011, 2, 12500.00, 67023, 06);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('BYU775', 'Suzuki', 'Swift', 2013, 3, 12000.00, 100320, 08);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('MPN756', 'Subaru', 'Forester', 2013, 2, 12000.00, 108900, 05);
+INSERT INTO vehicles(V_RegNo, V_Make, V_Model, V_Year, V_NumOwners, V_Price, V_Miledge, C_No) VALUES('HPM665', 'Subaru', 'Impreza', 2014, 1, 18500.00, 42500, 05);
+
+COMMIT;
+
+INSERT INTO sales_persons(sp_id, sp_Fname, sp_Lname, sp_startDate, sp_cellPh, sp_comRate) VALUES ('MK201', 'Michael', 'Knapp', '01-05-2013', '0213390833', 0.25);
+INSERT INTO sales_persons(sp_id, sp_Fname, sp_Lname, sp_startDate, sp_cellPh, sp_comRate) VALUES ('KK202', 'Kelly', 'Knapp', '02-05-2013', '0213390834', 0.25);
+INSERT INTO sales_persons(sp_id, sp_Fname, sp_Lname, sp_startDate, sp_cellPh, sp_comRate, sp_sup) VALUES ('EG203', 'Eddy', 'Gordo', '15-05-2013', '0213394567', 0.15, 'MK201');
+INSERT INTO sales_persons(sp_id, sp_Fname, sp_Lname, sp_startDate, sp_cellPh, sp_comRate, sp_sup) VALUES ('FW204', 'Feng', 'Wei', '22-07-2013', '0213391111', 0.15, 'MK201');
+INSERT INTO sales_persons(sp_id, sp_Fname, sp_Lname, sp_startDate, sp_cellPh, sp_comRate) VALUES ('PP205', 'Paul', 'Phoenix', '02-11-2013', '0211234567', 0.15);
+INSERT INTO sales_persons(sp_id, sp_Fname, sp_Lname, sp_startDate, sp_cellPh, sp_comRate) VALUES ('SD206', 'Sergei', 'Dragunov', '28-04-2014', '0211231111', 0.15);
+
+COMMIT;
+
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Andrew', 'Phillips', 'M', '123 Ulster Street', 'Hamilton', '8101010101');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Address3,  C_Ph) VALUES ('Katniss', 'Everdeen', 'F', 'Unit 2', '45 Dinsdale Road', 'Hamilton', '8123445678');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Peeta', 'Mallark', 'M', '123 Anglesea Street', 'Hamilton', '8111111111');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Gale', 'Hawthorne', 'M', '717 River Rd', 'Hamilton', '8221112222');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Haymitch', 'Abernathy', 'M', '24 Duke Street', 'Cambridge', '8881118888');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Primrose', 'Everdeen', 'F', '24 Sandwich Road', 'Hamilton', '8999999999');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Effie', 'Trinket', 'F', '655 Tristram Street', 'Hamilton', '8181818188');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Elliot', 'Witt', 'M', '121 King Street', 'Cambridge', '9122345678');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Lee', 'Chaolan', 'M', '41 Clare Street', 'Cambridge', '9999991234');
+INSERT INTO customers(C_FName, C_LName, C_Gender, C_Address1, C_Address2, C_Ph) VALUES ('Josie', 'Rizal', 'F', '123 Clyde Street', 'Hamilton', '9999994567');
+
+COMMIT;
+
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '14-07-2015', vehicles.v_price, 2000.00, 'MK201', 1, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'AGY123';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '16-07-2015', vehicles.v_price, 2000.00, 'KK202', 2, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'AFW982';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '24-07-2015', vehicles.v_price, 1000.00, 'SD206', 3, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'HJA356';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '29-07-2015', vehicles.v_price, 3000.00, 'EG203', 4, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'NHE938';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '05-08-2015', vehicles.v_price, 2000.00, 'FW204', 5, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'MBS348';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '16-08-2015', vehicles.v_price, 3000.00, 'SD206', 6, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'GKN534';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '16-08-2015', vehicles.v_price, 3000.00, 'EG203', 7, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'PRH345';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '20-08-2015', vehicles.v_price, 4000.00, 'EG203', 8, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'JU3492';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '25-08-2015', vehicles.v_price, 3000.00, 'MK201', 9, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'ALH788';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '09-09-2015', vehicles.v_price, 2000.00, 'MK201', 10, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'JRY781';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '12-09-2015', vehicles.v_price, 3000.00, 'PP205', 1, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'MPN756';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '18-09-2015', vehicles.v_price, 3000.00, 'EG203', 1, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'HPM665';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '23-09-2015', vehicles.v_price, 2000.00, 'PP205', 4, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'JNA553';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '08-10-2015', vehicles.v_price, 2000.00, 'EG203', 7, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'GGP198';
+INSERT INTO sales_purchases(sp_dateSold, sp_salePrice, sp_deposit, sp_id, c_id, v_regno) SELECT '12-10-2015', vehicles.v_price, 3000.00, 'KK202', 8, vehicles.v_regno FROM VEHICLES WHERE vehicles.v_regno = 'LDU724';
+
+UPDATE sales_purchases SET sp_addncost = sp_saleprice*0.2;
+UPDATE sales_purchases SET sp_total = sp_saleprice+sp_addncost-sp_deposit;
+
+COMMIT;
+
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('25-07-2015', 1000.00, 2, 10000001); 
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('25-08-2015', 2500.00, 2, 10000001);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('25-09-2015', 5000.00, 2, 10000001);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('25-10-2015', 2000.00, 2, 10000001);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('25-11-2015', 2500.00, 2, 10000001);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('22-09-2015', 3500.00, 1, 10000011);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('29-07-2015', 1000.00, 3, 10000002);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('14-08-2015', 7000.00, 5, 10000004);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('27-08-2015', 2500.00, 8, 10000007);
+INSERT INTO payments(P_Date, P_Amount, C_Id, SP_Invoice) VALUES ('17-09-2015', 5250.00, 10, 10000009);
+
+COMMIT;
+
+INSERT INTO suppliers(S_Code, S_Name, S_Address1, S_Address2, S_Address3, S_ContactP, S_ContactPh) VALUES ('XTRQC', 'XTREME Quality Cars Inc', '22A Great North Rd', 'Pimbroke', 'Auckland', 'Murray Knapp', '096666432'); 
+
+COMMIT;
+
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Ford', 'Focus', 2014, 4500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Honda', 'Civic', 2013, 5500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Honda', 'Accord', 2015, 7000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Aurion', 2013, 10000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Holden', 'Commodore', 2013, 15000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Yaris', 2014, 6000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Yaris', 2015, 7000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Honda', 'Accord', 2014, 7000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Suzuki', 'Swift', 2013, 6000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('BMW', '116i', 2011, 5166.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Hilux', 2012, 7500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Mazda', 'BT50', 2013, 6166.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Mazda', 'Atenza', 2011, 5500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Mitsubishi', 'Triton', 2013, 5500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Volkswagen', 'Golf', 2013, 5833.32);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Volkswagen', 'Passat', 2015, 9666.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Mitsubishi', 'Lancer', 2013, 3166.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Blade', 2009, 3166.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Hilux', 2013, 7500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', 'Wish', 2011, 3583.32);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Honda', 'CR-V', 2010, 3000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Mazda', 'Axela', 2008, 2833.32);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Mazda', 'Demio', 2011, 4166.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Suzuki', 'SX4', 2013, 4000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Subaru', 'Forester', 2013, 4000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Subaru', 'Impreza', 2014, 6166.67);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Audi', 'A4', 2014, 8000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Ford', 'Mondeo', 2015, 500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Subaru', 'Impreza', 2011, 4500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Holden', 'Cruze', 2012, 4000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('BMW', '328i', 2009, 6500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Audi', 'A3', 2011, 6500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Lexus', 'IS350', 2010, 6000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Toyota', '86', 2014, 9000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Holden', 'Colorado', 2014, 8000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Ford', 'Fiesta', 2013, 4000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('BMW', 'X5', 2012, 7000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Nissan', 'Qashqai', 2014, 6000);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Nissan', 'Skyline', 2010, 3500);
+INSERT INTO items(I_Make, I_Model, I_Year, I_Price) VALUES ('Subaru', 'WRX', 2014, 10500);
+
+COMMIT;
+
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('11-05-2015', 'XTRQC', 'MK201');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('17-05-2015', 'XTRQC', 'MK201');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('24-05-2015', 'XTRQC', 'KK202');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('30-05-2015', 'XTRQC', 'MK201');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('08-06-2015', 'XTRQC', 'KK202');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('15-06-2015', 'XTRQC', 'MK201');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('22-06-2015', 'XTRQC', 'MK201');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('28-06-2015', 'XTRQC', 'MK201');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('13-08-2015', 'XTRQC', 'KK202');
+INSERT INTO orders(o_date, s_code, sp_id) VALUES ('22-08-2015', 'XTRQC', 'MK201');
+
+COMMIT;
+
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000000, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=1;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000000, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=2;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000000, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=5;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000000, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=4;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000001, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=6;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000001, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=3;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000001, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=7;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000002, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 3 FROM items WHERE items.i_no=8;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000002, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=10;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000003, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=11;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000003, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=12;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000003, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=13;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000004, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=14;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000004, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=15;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000005, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=16;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000005, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=17;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000005, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=9;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000006, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=18;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000006, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=19;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000006, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=20;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000007, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=21;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000007, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=22;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000007, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=23;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000007, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=25;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000007, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=26;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000008, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=32;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000008, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=33;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000008, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 3 FROM items WHERE items.i_no=30;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000008, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=34;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000008, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=29;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000008, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=28;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 4 FROM items WHERE items.i_no=35;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=36;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=31;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=40;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=37;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 2 FROM items WHERE items.i_no=39;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=38;
+INSERT INTO order_lines(o_id, i_no, i_make, i_model, i_price, i_year, ol_qty) SELECT 80000009, items.i_no, items.i_make, items.i_model, items.i_price, items.i_year, 1 FROM items WHERE items.i_no=27;
+
+COMMIT;
+
+UPDATE order_lines SET ol_subtotal = i_price * ol_qty;
+UPDATE orders SET o_totalqty = (SELECT SUM(order_lines.ol_qty) FROM order_lines WHERE orders.o_id = order_lines.o_id);
+UPDATE orders SET o_total = (SELECT SUM(order_lines.ol_subtotal) FROM order_lines WHERE orders.o_id = order_lines.o_id);
+
+COMMIT;

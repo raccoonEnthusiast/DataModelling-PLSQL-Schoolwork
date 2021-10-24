@@ -1,0 +1,66 @@
+SET sqlformat = CSV;
+
+--1
+SPOOL "vehicleList.csv";
+SELECT v_regno "Registration", v_make "Make", v_model "Model", v_year "Year", v_price "Price" 
+FROM vehicles;
+SPOOL OFF;
+
+--2
+SPOOL C:\NumVehiclesSold.csv;
+SELECT COUNT(sp_invoice) "Number of Vehicles Sold" 
+FROM sales_purchases;
+SPOOL OFF;
+
+--3
+SPOOL C:\August2015Sales.csv;
+SELECT sp_invoice "Invoice Number", v_regno "Registration Number", customers.c_fname ||' '|| customers.c_lname "Customer Name", sp_id "Sales person Code"
+FROM sales_purchases, customers
+WHERE sales_purchases.c_id = customers.c_id 
+AND sp_datesold BETWEEN '01-08-2015' AND '31-08-2015';
+SPOOL OFF;
+
+--4
+SPOOL C:\VehiclePriceStatistics.csv;
+SELECT MAX(v_price) "Max price", MIN(v_price) "Min Price", ROUND(AVG(v_price),2) "Average Price", SUM(v_price) "Total Price", COUNT(v_regno) "Number of Vehicles"
+FROM vehicles;
+SPOOL OFF;
+
+--5
+SPOOL C:\CustomerPayments.csv
+SELECT payments.p_invoice "Payment Number", customers.c_fname ||' '|| customers.c_lname "Customer Name", payments.p_date "Payment Date", payments.p_amount "Payment Amount"
+FROM payments, customers
+WHERE payments.c_id = customers.c_id 
+ORDER BY customers.c_fname ASC;
+SPOOL OFF;
+
+--6
+SPOOL C:\TotalPayments.csv
+SELECT payments.sp_invoice "Invoice Number", customers.c_fname "First Name", customers.c_lname "Last Name", COUNT(payments.p_invoice) "Number of Payments", SUM(payments.p_amount) "Payment Amount"
+FROM payments, customers
+WHERE payments.c_id = customers.c_id
+GROUP BY sp_invoice, customers.c_fname, customers.c_lname
+ORDER BY sp_invoice ASC;
+SPOOL OFF;
+
+--7
+SPOOL "C:\TotalSales.csv";
+SELECT COUNT(sp_invoice) "Number of Vehicles Sold", SUM(sp_saleprice) "Total Sale Prices", SUM(sp_total) "Total Sales", ROUND(SUM(sp_total) - SUM(sp_saleprice),2) "Total Additionals"
+FROM sales_purchases;
+SELECT ROUND(SUM(sp_addncost) - SUM(sp_deposit),2) "Total Additionals"
+FROM sales_purchases;
+SPOOL OFF;
+
+--8
+SPOOL "C:\OrderStatistics.csv";
+SELECT MAX(o_total) "Max Order", MIN(o_total) "Min Order", ROUND(AVG(o_total),2) "Average Order", SUM(o_total) "Total Order"
+FROM orders;
+SPOOL OFF;
+
+--9
+SPOOL "C:\SalesPersonOrders.csv";
+SELECT DISTINCT sp_id "Sales Person", COUNT(o_id) "Number of Orders"
+FROM orders
+GROUP BY sp_id
+ORDER BY sp_id ASC;
+SPOOL OFF;
